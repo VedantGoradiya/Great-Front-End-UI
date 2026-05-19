@@ -1,0 +1,22 @@
+.prog{
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.prog span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    font-weight: bold;
+}
+
+.prog div{
+    height: 100%;
+    background-color: #008000;
+}
