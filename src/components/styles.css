@@ -1,0 +1,41 @@
+.navbar-nav .nav-link {
+  font-size: 1.05rem;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ffffff !important;
+  border-bottom: 2px solid #ffffff;
+}
+
+.navbar-brand {
+  letter-spacing: 1px;
+}
+
+.feature-card {
+  cursor: pointer;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #111;
+  transition: all 0.25s ease-in-out;
+  border: 1px solid #e5e5e5;
+}
+
+.feature-card:hover {
+  background: #111;
+  color: #ffffff;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  background: #1a1a1a;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
