@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
+import { data } from "./constants/fileSystem";
+
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import JobBoard from "./Pages/Job-Board/JobBoard";
@@ -9,6 +11,7 @@ import ProgressBar3 from "./Pages/Progress-Bar/progressBar3";
 import ProgressBar4 from "./Pages/Progress-Bar/progressBar4";
 import StarRating from "./Pages/Star-Rating/StarRating";
 import TrafficLight from "./Pages/Traffin-Light/TrafficLight";
+import FileSystem from "./Pages/File-Exp/FileSystem";
 
 function App() {
   return (
@@ -23,6 +26,7 @@ function App() {
         <Route path="/progress-bar4" element={<ProgressBar4 />} />
         <Route path="/star-rating" element={<StarRating />} />
         <Route path="/traffic-light" element={<TrafficLight />} />
+        <Route path="/file-system" element={<FileSystem data={data} />} />
       </Routes>
     </div>
   );
