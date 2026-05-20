@@ -15,6 +15,8 @@ const Bars = () => {
         }
       });
     }, 100);
+
+    return () => clearInterval(timer)
   }, []);
 
   return (
