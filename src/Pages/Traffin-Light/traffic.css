@@ -1,0 +1,19 @@
+.light {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  margin: 15px;
+  background-color: lightgrey;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
