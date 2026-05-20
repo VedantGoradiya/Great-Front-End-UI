@@ -1,22 +1,26 @@
 import React, { useState, useEffect } from "react";
 import "./progress.css";
 
-const ProgressBar2 = () => {
+const ProgressBar3 = () => {
   const [count, setCount] = useState(0);
   const [active, setActive] = useState(0);
+  const [limit, setLimit] = useState(3);
 
   const handleClick = () => {
+    if (limit == 0) return;
+    setLimit((prev) => prev - 1);
     setCount((prev) => prev + 1);
   };
 
   const handleComplete = () => {
     setActive((prev) => prev + 1);
+    setLimit((prev) => prev + 1);
   };
 
   return (
     <div className="cont">
-      <h2>Progress Bar - 2</h2>
-      <h4>One active bar at a time</h4>
+      <h2>Progress Bar - 3</h2>
+      <h4>Limit of 3 bars</h4>
       <div>
         <button onClick={handleClick}>Add</button>
         {[...new Array(count)].map((_, id) => (
@@ -57,4 +61,4 @@ const Bars = ({ activeInd, onComplete }) => {
   );
 };
 
-export default ProgressBar2;
+export default ProgressBar3;
