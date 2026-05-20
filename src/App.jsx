@@ -7,6 +7,7 @@ import ProgressBar from "./Pages/Progress-Bar/progressBar";
 import ProgressBar2 from "./Pages/Progress-Bar/progressBar2";
 import ProgressBar3 from "./Pages/Progress-Bar/progressBar3";
 import ProgressBar4 from "./Pages/Progress-Bar/progressBar4";
+import StarRating from "./Pages/Star-Rating/StarRating";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/progress-bar2" element={<ProgressBar2 />} />
         <Route path="/progress-bar3" element={<ProgressBar3 />} />
         <Route path="/progress-bar4" element={<ProgressBar4 />} />
+        <Route path="/star-rating" element={<StarRating />} />
       </Routes>
     </div>
   );
