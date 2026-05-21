@@ -14,6 +14,7 @@ import TrafficLight from "./Pages/Traffin-Light/TrafficLight";
 import FileSystem from "./Pages/File-Exp/FileSystem";
 import TicTac from "./Pages/Tic-Tac-Toe/TicTac";
 import TransferList from "./Pages/Transfer-List/TransferList";
+import DataTable from "./Pages/DataTable/DataTable";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/file-system" element={<FileSystem data={data} />} />
         <Route path="/tictac" element={<TicTac />} />
         <Route path="/transferList" element={<TransferList />} />
+        <Route path="/data-table" element={<DataTable />} />
       </Routes>
     </div>
   );
