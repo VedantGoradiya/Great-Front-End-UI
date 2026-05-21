@@ -13,6 +13,7 @@ import StarRating from "./Pages/Star-Rating/StarRating";
 import TrafficLight from "./Pages/Traffin-Light/TrafficLight";
 import FileSystem from "./Pages/File-Exp/FileSystem";
 import TicTac from "./Pages/Tic-Tac-Toe/TicTac";
+import TransferList from "./Pages/Transfer-List/TransferList";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/traffic-light" element={<TrafficLight />} />
         <Route path="/file-system" element={<FileSystem data={data} />} />
         <Route path="/tictac" element={<TicTac />} />
+        <Route path="/transferList" element={<TransferList />} />
       </Routes>
     </div>
   );

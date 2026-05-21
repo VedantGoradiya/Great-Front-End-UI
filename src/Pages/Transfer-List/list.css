@@ -1,0 +1,18 @@
+.list-cont{
+    display: flex;
+    gap: 40px;
+    margin: 20px;
+    align-items: center;
+}
+
+.int-list{
+    display: flex;
+    gap: 10px;
+}
+
+.btn-div{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    gap: 10px;
+}
