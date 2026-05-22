@@ -17,6 +17,7 @@ import TransferList from "./Pages/Transfer-List/TransferList";
 import DataTable from "./Pages/DataTable/DataTable";
 import UndoCounter from "./Pages/UndoCounter/UndoCounter";
 import UserDB from "./Pages/UserDB/UserDB";
+import WackAMole from "./Pages/WackAMole/WackAMole";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="/data-table" element={<DataTable />} />
         <Route path="/undo-counter" element={<UndoCounter />} />
         <Route path="/user-DB" element={<UserDB />} />
+        <Route path="/whackAMole" element={<WackAMole />} />
       </Routes>
     </div>
   );

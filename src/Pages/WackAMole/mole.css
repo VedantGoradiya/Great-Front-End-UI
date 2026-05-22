@@ -1,0 +1,13 @@
+.cont{
+    width: 200px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.active{
+    background-color: red;
+}
