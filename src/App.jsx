@@ -15,6 +15,7 @@ import FileSystem from "./Pages/File-Exp/FileSystem";
 import TicTac from "./Pages/Tic-Tac-Toe/TicTac";
 import TransferList from "./Pages/Transfer-List/TransferList";
 import DataTable from "./Pages/DataTable/DataTable";
+import UndoCounter from "./Pages/UndoCounter/UndoCounter";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/tictac" element={<TicTac />} />
         <Route path="/transferList" element={<TransferList />} />
         <Route path="/data-table" element={<DataTable />} />
+        <Route path="/undo-counter" element={<UndoCounter />} />
       </Routes>
     </div>
   );
