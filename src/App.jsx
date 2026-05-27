@@ -20,6 +20,7 @@ import UserDB from "./Pages/UserDB/UserDB";
 import WackAMole from "./Pages/WackAMole/WackAMole";
 import PixelArt from "./Pages/PixelArt/PixelArt";
 import Histogram from "./Pages/Histogram/Histogram";
+import AuthCode from "./Pages/AuthCode/AuthCode";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route path="/whackAMole" element={<WackAMole />} />
         <Route path="/PixelArt" element={<PixelArt />} />
         <Route path="/Histogram" element={<Histogram />} />
+        <Route path="/AuthCode" element={<AuthCode />} />
       </Routes>
     </div>
   );
