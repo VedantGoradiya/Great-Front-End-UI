@@ -18,6 +18,7 @@ import DataTable from "./Pages/DataTable/DataTable";
 import UndoCounter from "./Pages/UndoCounter/UndoCounter";
 import UserDB from "./Pages/UserDB/UserDB";
 import WackAMole from "./Pages/WackAMole/WackAMole";
+import PixelArt from "./Pages/PixelArt/PixelArt";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path="/undo-counter" element={<UndoCounter />} />
         <Route path="/user-DB" element={<UserDB />} />
         <Route path="/whackAMole" element={<WackAMole />} />
+        <Route path="/PixelArt" element={<PixelArt />} />
       </Routes>
     </div>
   );
