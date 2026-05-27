@@ -19,6 +19,7 @@ import UndoCounter from "./Pages/UndoCounter/UndoCounter";
 import UserDB from "./Pages/UserDB/UserDB";
 import WackAMole from "./Pages/WackAMole/WackAMole";
 import PixelArt from "./Pages/PixelArt/PixelArt";
+import Histogram from "./Pages/Histogram/Histogram";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route path="/user-DB" element={<UserDB />} />
         <Route path="/whackAMole" element={<WackAMole />} />
         <Route path="/PixelArt" element={<PixelArt />} />
+        <Route path="/Histogram" element={<Histogram />} />
       </Routes>
     </div>
   );
