@@ -53,8 +53,6 @@ const AuthCode = () => {
     codeRef.current[code.length - 1].focus();
   };
 
-  567890
-
   return (
     <div className="main-div">
       <div onPaste={handlePaste} className="auth">
