@@ -22,6 +22,7 @@ import PixelArt from "./Pages/PixelArt/PixelArt";
 import Histogram from "./Pages/Histogram/Histogram";
 import AuthCode from "./Pages/AuthCode/AuthCode";
 import AnalogClock from "./Pages/AnalogClock/AnalogClock";
+import AutoComplete from "./Pages/AutoComplete/AutoComplete";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
         <Route path="/Histogram" element={<Histogram />} />
         <Route path="/AuthCode" element={<AuthCode />} />
         <Route path="/AnalogClock" element={<AnalogClock />} />
+        <Route path="/AutoComplete" element={<AutoComplete />} />
       </Routes>
     </div>
   );
