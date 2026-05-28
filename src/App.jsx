@@ -23,6 +23,7 @@ import Histogram from "./Pages/Histogram/Histogram";
 import AuthCode from "./Pages/AuthCode/AuthCode";
 import AnalogClock from "./Pages/AnalogClock/AnalogClock";
 import AutoComplete from "./Pages/AutoComplete/AutoComplete";
+import Payment from "./Payment-Input/Payment";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
         <Route path="/AuthCode" element={<AuthCode />} />
         <Route path="/AnalogClock" element={<AnalogClock />} />
         <Route path="/AutoComplete" element={<AutoComplete />} />
+        <Route path="/Payment" element={<Payment />} />
       </Routes>
     </div>
   );
