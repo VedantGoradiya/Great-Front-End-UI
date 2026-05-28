@@ -21,6 +21,7 @@ import WackAMole from "./Pages/WackAMole/WackAMole";
 import PixelArt from "./Pages/PixelArt/PixelArt";
 import Histogram from "./Pages/Histogram/Histogram";
 import AuthCode from "./Pages/AuthCode/AuthCode";
+import AnalogClock from "./Pages/AnalogClock/AnalogClock";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
         <Route path="/PixelArt" element={<PixelArt />} />
         <Route path="/Histogram" element={<Histogram />} />
         <Route path="/AuthCode" element={<AuthCode />} />
+        <Route path="/AnalogClock" element={<AnalogClock />} />
       </Routes>
     </div>
   );
