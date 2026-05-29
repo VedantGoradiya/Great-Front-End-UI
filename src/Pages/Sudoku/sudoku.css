@@ -1,0 +1,13 @@
+.cell {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+.horizontal {
+  border-bottom: 2px solid black;
+}
+
+.vertical {
+  border-right: 2px solid black;
+}

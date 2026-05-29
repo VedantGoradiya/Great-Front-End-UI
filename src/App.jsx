@@ -24,6 +24,7 @@ import AuthCode from "./Pages/AuthCode/AuthCode";
 import AnalogClock from "./Pages/AnalogClock/AnalogClock";
 import AutoComplete from "./Pages/AutoComplete/AutoComplete";
 import Payment from "./Payment-Input/Payment";
+import Sudoku from "./Pages/Sudoku/Sudoku";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
         <Route path="/AnalogClock" element={<AnalogClock />} />
         <Route path="/AutoComplete" element={<AutoComplete />} />
         <Route path="/Payment" element={<Payment />} />
+        <Route path="/Sudoku" element={<Sudoku />} />
       </Routes>
     </div>
   );
